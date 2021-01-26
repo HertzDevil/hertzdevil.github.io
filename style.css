@@ -1,0 +1,43 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #3f3f3f;
+  font-family: "Liberation Mono", monospace;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#main > div {
+  margin: 12px;
+}
+
+#me {
+  font-size: 600%;
+  color: #dcdccc;
+}
+
+.links {
+  font-size: 200%;
+  display: flex;
+  justify-content: center;
+}
+
+.links * + *::before {
+  content: "•";
+  color: #dcdccc;
+  margin: 20px;
+}
+
+a {
+  color: #f0dfaf;
+}
