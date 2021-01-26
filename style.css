@@ -18,16 +18,16 @@ body {
 }
 
 #main > div {
-  margin: 12px;
+  margin: 10px;
 }
 
 #me {
-  font-size: 600%;
+  font-size: 400%;
   color: #dcdccc;
 }
 
 .links {
-  font-size: 200%;
+  font-size: 150%;
   display: flex;
   justify-content: center;
 }
@@ -35,7 +35,7 @@ body {
 .links * + *::before {
   content: "•";
   color: #dcdccc;
-  margin: 20px;
+  margin: 16px;
 }
 
 a {
