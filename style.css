@@ -28,7 +28,9 @@ body {
 
 .links {
   font-size: 150%;
+  line-height: 150%;
   display: flex;
+  flex-flow: wrap;
   justify-content: center;
 }
 
