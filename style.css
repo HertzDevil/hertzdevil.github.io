@@ -24,6 +24,9 @@ body {
 #me {
   font-size: 400%;
   color: #dcdccc;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
 }
 
 .links {
@@ -34,10 +37,9 @@ body {
   justify-content: center;
 }
 
-.links * + *::before {
-  content: "•";
+.sep {
   color: #dcdccc;
-  margin: 16px;
+  margin: 0 16px;
 }
 
 a {
